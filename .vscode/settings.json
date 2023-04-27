@@ -1,3 +1,4 @@
 {
-    "cmake.configureArgs": []
+    "cmake.configureArgs": [],
+    "editor.linkedEditing": true
 }
