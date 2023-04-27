@@ -1,0 +1,66 @@
+/* Import fonts from Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+/* Define CSS variables */
+:root {
+  --primary-color: #XXXXXX;
+  --secondary-color: #XXXXXX;
+  --accent1-color: #XXXXXX;
+  --accent2-color: #XXXXXX;
+
+  --heading-font: '______', serif;
+  --paragraph-font: '______', serif;
+
+  --nav-background-color: #XXXXXX;
+  --nav-link-color: #XXXXXX;
+  --nav-hover-link-color: #XXXXXX;
+  --nav-hover-background-color: #XXXXXX;
+}
+
+/* Body */
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Header */
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+/* Paragraphs */
+p {
+  padding: 25px;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
