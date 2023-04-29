@@ -3,18 +3,18 @@
 
 /* Define CSS variables */
 :root {
-  --primary-color: #XXXXXX;
-  --secondary-color: #XXXXXX;
-  --accent1-color: #XXXXXX;
-  --accent2-color: #XXXXXX;
+  --primary-color: skyblue;
+  --secondary-color: #eeeeee;
+  --accent1-color: #eeee;
+  --accent2-color: #00;
 
   --heading-font: '______', serif;
   --paragraph-font: '______', serif;
 
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
+  --nav-background-color: purple;
+  --nav-link-color: yellow;
+  --nav-hover-link-color: brown;
+  --nav-hover-background-color: #00e;
 }
 
 /* Body */
@@ -25,7 +25,17 @@ body {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h2 {
+  color: steelblue;
+  width: 150px;
+  border: 0px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 0px gray;
+  float: left;
+  margin: 0 0 1rem 1rem;
+}
+h1, h3, h4, h5, h6 {
+  
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -63,4 +73,8 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
+footer {
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
+}
