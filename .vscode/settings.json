@@ -1,4 +1,5 @@
 {
     "cmake.configureArgs": [],
-    "editor.linkedEditing": true
+    "editor.linkedEditing": true,
+    "C_Cpp.default.compilerPath": ""
 }
