@@ -1,6 +1,9 @@
 /* Import fonts from Google Fonts API */
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 /* Define CSS variables */
 :root {
   --primary-color: skyblue;
@@ -25,16 +28,8 @@ body {
 }
 
 /* Headings */
-h2 {
-  color: steelblue;
-  width: 150px;
-  border: 0px solid steelblue;
-  padding: 2px;
-  box-shadow: 0 0 0px gray;
-  float: left;
-  margin: 0 0 1rem 1rem;
 }
-h1, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   
   font-family: var(--heading-font);
   color: var(--primary-color);
