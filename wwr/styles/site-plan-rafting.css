@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  max-width: 960px;
+  padding: 20px;
 }
+
 /* Define CSS variables */
 :root {
   --primary-color: skyblue;
@@ -20,17 +23,8 @@ body {
   --nav-hover-background-color: #00e;
 }
 
-/* Body */
-body {
-  font-family: var(--paragraph-font);
-  max-width: 960px;
-  padding: 20px;
-}
-
 /* Headings */
-}
 h1, h2, h3, h4, h5, h6 {
-  
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -43,6 +37,7 @@ header {
 
 /* Paragraphs */
 p {
+  font-family: var(--paragraph-font);
   padding: 25px;
 }
 
@@ -68,6 +63,7 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
