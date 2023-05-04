@@ -25,6 +25,11 @@ aside {
   margin: 1rem;
   padding: 1rem;
 }
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+}
 
 aside img {
   width: 200px;
@@ -76,6 +81,8 @@ main {
 }
 
 main img {
+  /* you most likely will have other declarations here */
+  float: right;
   width: 150px;
   height: auto;
 }
