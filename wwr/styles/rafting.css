@@ -17,8 +17,7 @@
 
 /* Apply font family to the whole page */
 body {
-    max-width: none;
-    min-height: none;
+
     font-family: 'Roboto', sans-serif;
   }  
 
@@ -80,7 +79,6 @@ text-align: center;
 
 .hero article {
     position: absolute;
-    right: inherit 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1rem;
