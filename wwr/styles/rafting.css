@@ -18,8 +18,10 @@
 
 /* Apply font family to the whole page */
 body {
-  font-family: Ariel, sans-serif;
-}
+    max-width: none;
+    min-height: none;
+    font-family: Arial, sans-serif;
+  }  
 
 /* Header Styles */
 header {
@@ -78,14 +80,14 @@ text-align: center;
 }
 
 .hero article {
-  position: absolute;
-  right: inherit 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.7);
-  color: var(--primary-color);
-}
+    position: absolute;
+    right: inherit 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: var(--primary-color);
+  }  
 
 .hero article img {
   float: right;
