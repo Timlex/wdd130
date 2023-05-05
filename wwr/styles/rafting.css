@@ -10,7 +10,6 @@
 
 /* Reset default styles */
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -18,15 +17,12 @@
 /* Apply font family to the whole page */
 body {
   font-family: Ariel, sans-serif;
-  max-width: 960px;
-  padding: 20px;
 }
 
 /* Header Styles */
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
@@ -65,7 +61,8 @@ main {
 }
 
 .hero img {
-  position: absolute;
+  display: block;
+    position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -75,9 +72,6 @@ main {
 .hero h1 {
 position: absolute;
 top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-size: 3rem;
 text-align: center;
 }
 
