@@ -43,8 +43,11 @@ body {
 
 .grid {
   display: grid;
-  align-items: center;
+  grid-template-columns: 1fr 3fr; /* sets two columns with a 1:3 ratio */
+  gap: 1rem; /* adds a gap between grid items */
+  align-items: center; /* vertically centers grid items */
 }
+
 
 main {
   grid-column: 2/3;
