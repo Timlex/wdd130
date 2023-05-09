@@ -41,9 +41,21 @@ body {
   font-family: Roboto, Ariel, sans-serif;
 }
 
+.grid {
+  display: grid;
+  align-items: center;
+}
+
 main {
-  max-width: 800px;
-  margin: 0 auto;
+  grid-column: 2/3;
+  margin: 1rem;
+}
+
+aside {
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 nav {
@@ -60,11 +72,14 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #fff; /% shorthand for white %/
+  color: #fff; /* shorthand for white */
 }
 
 h1 {
   color: steelblue;
+}
+h1 {
+  border-bottom: 1px solid black;
 }
 
 img {
@@ -82,12 +97,8 @@ p {
   margin: 1rem;
 }
 
-main {
-  max-width: 840px;
-}
-
 main img {
-  /* you most likely will have other declarations here */
+  /* other declarations here */
   float: right;
   width: 150px;
   height: auto;
@@ -98,7 +109,8 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
-header, footer {
+
+header, .grid, footer {
   max-width: 840px;
   margin: 0 auto;
 }
