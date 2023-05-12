@@ -23,19 +23,47 @@ body {
 
 /* Header Styles */
 header {
-  display: flex;
-  justify-content: space-between;
+  margin: 1rem auto;
+  display: grid;
+  flex-direction: column-reverse;
+  justify-content: normal;
+  align-items: stretch;
+  flex-wrap: wrap;
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
 }
 
-nav ul {
+.logo {
   display: flex;
-  list-style: none;
+  align-items: center;
 }
 
-nav li {
+.logo img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: flex-end
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  align-content: stretch
+}
+
+nav li:not(:last-child) {
   margin-right: 1rem;
 }
 
@@ -48,6 +76,7 @@ nav a {
 nav a:hover {
   background-color: var(--secondary-color);
 }
+
 
 /* Main Styles */
 main {
@@ -107,28 +136,31 @@ section img {
 }
 
 /* Footer Styles */
+footer p {
+  text-align: center; /* Align the content to the middle */
+  padding: 1rem;
+}
+
 footer {
   background-color: var(--primary-color);
   color: white;
-  text-align: center;
+  text-align: right; /* Align the content to the right */
   padding: 1rem;
 }
 
 footer a {
   display: inline-block;
-  margin: 0 1rem;
+  margin-left: auto; /* Push the social images to the right */
 }
 
 footer a img {
   height: 30px;
   width: 30px;
   opacity: 0.8;
+  margin-left: 1rem; /* Add some space between the social images */
 }
 
 footer a img:hover {
-opacity: 1;
+  opacity: 1;
 }
 
-footer p {
-margin-top: 1rem;
-}
