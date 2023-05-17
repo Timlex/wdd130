@@ -1,5 +1,6 @@
 {
     "cmake.configureArgs": [],
     "editor.linkedEditing": true,
-    "C_Cpp.default.compilerPath": ""
+    "C_Cpp.default.compilerPath": "",
+    "terminal.integrated.sendKeybindingsToShell": true
 }
