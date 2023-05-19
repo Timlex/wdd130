@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
-
-
 
 /* Define CSS variables for color scheme */
 :root {
@@ -163,7 +160,6 @@ footer a img:hover {
   opacity: 1;
 }
 
-}
 /* CSS styles for the form */
 
 
