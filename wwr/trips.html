@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&amp;display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -26,8 +26,7 @@
     </header>
     <div>
         <div class="hero">
-            <img src="images/rafting14_600.jpg" alt="Life Adventure Explore">
-            <h1>Life Adventure Explore Co.</h1>
+            <img src="images/riverwide.JFIF" alt="Life Adventure Explore">
         </div>
 
         <main>
@@ -38,26 +37,29 @@
             </section>
 
             <section>
-                <h2>Detailed Trip 1</h2>
+                <h2>Los Dientes del Diablo</h2>
                 <div class="trip-details">
-                    <img src="images/trip1.jpg" alt="Trip 1">
-                    <p>Description of Trip 1</p>
+                    <img src="images/rafting17_600.jpg" alt="Trip 1">
+                    <p>Adventurous Rapids Expedition:
+                        Embark on an adrenaline-pumping journey with our Adventurous Rapids Expedition. Brace yourself for the ultimate thrill as you navigate through turbulent rapids, conquering the untamed forces of nature.Feel the rush of the crystal-clear waters as they surge around your raft, and experience the exhilaration of maneuvering through challenging twists and turns. Our experienced guides will ensure your safety while providing fascinating insights into the surrounding wilderness. Prepare for a heart-pounding adventure that will leave you with lifelong memories. </p>
                 </div>
             </section>
 
             <section>
-                <h2>Detailed Trip 2</h2>
+                <h2>Half Day Adventure</h2>
                 <div class="trip-details">
-                    <img src="images/trip2.jpg" alt="Trip 2">
-                    <p>Description of Trip 2</p>
+                    <img src="images/rafting17_600.jpg" alt="Trip 2">
+                    <p>Scenic River Discovery:
+                        Discover the breathtaking beauty of nature on our Scenic River Discovery trip. Drift along the tranquil currents of a meandering river, surrounded by lush greenery and stunning landscapes. Immerse yourself in the serenity as you glide past towering cliffs and picturesque valleys. Take in the sights and sounds of the wilderness, spotting vibrant wildlife along the way. Our knowledgeable guides will share fascinating stories about the area's history and ecology, enriching your journey with their expertise. Relax, unwind, and reconnect with nature on this unforgettable rafting experience.</p>
                 </div>
             </section>
 
             <section>
-                <h2>Detailed Trip 3</h2>
+                <h2>Bright Moment</h2>
                 <div class="trip-details">
-                    <img src="images/trip3.jpg" alt="Trip 3">
-                    <p>Description of Trip 3</p>
+                    <img src="images/rafting43_600.jpg" alt="Trip 3">
+                    <p>Family-Friendly Fun:
+                        Create unforgettable memories with your loved ones on our Family-Friendly Fun rafting trip. Designed for all ages and experience levels, this adventure promises a perfect blend of excitement and relaxation. Enjoy the thrill of mild rapids while ensuring the safety and comfort of every family member. Marvel at the stunning natural scenery as you float down the river, bonding with your family amidst the tranquility of the outdoors. Our friendly guides will entertain you with engaging stories and games, making sure everyone has a fantastic time. Share laughter, joy, and the wonders of nature on this unforgettable family adventure.</p>
                 </div>
             </section>
 
@@ -74,26 +76,35 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Trip 1</td>
+                            <td>Los Dientes del Diablo</td>
                             <td>3 days</td>
                             <td>Intermediate</td>
                             <td>$500</td>
                         </tr>
                         <tr>
-                            <td>Trip 2</td>
+                            <td>Half Day Adventure</td>
                             <td>5 days</td>
                             <td>Advanced</td>
                             <td>$800</td>
                         </tr>
                         <tr>
-                            <td>Trip 3</td>
+                            <td>Bright Moment</td>
                             <td>2 days</td>
                             <td>Beginner</td>
                             <td>$350</td>
                         </tr>
-                        <!-- Add more trips as needed -->
                     </tbody>
                 </table>
+                <form action="booking.php" method="POST">
+                    <input type="hidden" name="trip" value="Half Day Adventure">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <button type="submit">Book Now</button>
+                </form>
             </section>
         </main>
 
@@ -107,4 +118,3 @@
 </body>
 </html>
 
-                           
